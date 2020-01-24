@@ -5,5 +5,5 @@ export const increment: Action<number> = ({state}, incrementBy) => {
 };
 
 export const decrement: Action<number> = ({state}, decrementBy) => {
-  state.counter += decrementBy;
+  state.counter -= decrementBy;
 };

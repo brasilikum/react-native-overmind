@@ -1,7 +1,7 @@
 type State = {
-  planet: string;
+  counter: number;
 };
 
 export const state: State = {
-  planet: 'Mars',
+  counter: 0,
 };
